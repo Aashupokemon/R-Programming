@@ -34,3 +34,56 @@
 
 ## Installing R and RStudio
 https://youtu.be/UqYLkc9NgGY
+
+## R Studio
+It has 4 parts 
+1. Editor for writing the R script or program.
+2. Global Environment where all the variables will be shown whichever you will create. 
+3. Console, terminal, background jobs where output of scripts will be shown, command line terminal and background tasks if any running.
+4. Files, plots, packages, viewer will show files in root directory of R, plots will show all the graphs we will create, packages will contain all the packages available in R studio to install and update packages, Viewer 
+5. To execute script 'ctrl+enter'
+6. Use script to save R programs and execute them.
+7. Extension will be <Filename>.R
+8. Ctrl+R to run the script. Output will be shown on the console.
+9. Edit  ->  Run all to run complete script in one go.
+10. '#' to comment eg. 
+
+```
+  #this is R studio
+```
+1. Sessioninfo() will tell us about the current session and packages attached to the session.
+
+2. ?plot(x) get help about the function.
+  
+3. R is case sensitive language.
+  
+4. All functions are mostly in lowercase letters.
+  
+5. It's crantastic  - Repository of packages.
+  
+6. R-bloggers - R programming help.
+
+## Clone the GitHub repository to your computer via RStudio
+  
+1. In RStudio, start a new Project:
+  
+2. File > New Project > Version Control > Git. 
+  
+3. In “Repository URL”, paste the URL of your new GitHub repository. It will be something like this https://github.com/abc/myrepo.git.
+  
+4. Accept the default project directory name, e.g. myrepo, which coincides with the GitHub repo name.
+  
+5. Take charge of – or at least notice! – where the Project will be saved locally. A common rookie mistake is to have no idea where you are saving files or what your working directory is. Pay attention. Be intentional. Personally, I would do this in ~/tmp.
+  
+6. I suggest you check “Open in new session”, as that’s what you’ll usually do in real life.
+  
+7. Click “Create Project”.
+  
+8. You should find yourself in a new local RStudio Project that represents your test repo on GitHub. This should download the README.md file from GitHub. 
+  
+9. Look in RStudio’s file browser pane for the README.md file.
+  
+[Connect RStudio to Git and GitHub](https://happygitwithr.com/rstudio-git-github.html)
+  
+# THANK YOU
+
